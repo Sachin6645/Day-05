@@ -1,0 +1,203 @@
+.build{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+
+.cont{
+    width: 1200px;
+    margin: 0 auto;
+   
+}
+.head{
+    width: 1200px;
+    height: 100px;
+    background: aqua;
+}
+.logo{
+    padding: 20px;
+    float: left;
+    line-height: 60px;
+}
+.logo img{
+    height: 70px;
+    width: 70px;
+
+}
+.logo p{
+    float: right;
+    padding-left: 20px;
+    font-size: 25px;
+    color: tomato;
+    /* line-height: 60px; */
+}
+.menu{
+    float:right;
+    line-height: 100px;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+    /* padding-top: 20px; */
+}
+.menu ul li a{
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 25px;
+}
+.menu ul li a:hover{
+    background: rgb(28, 244, 4);
+    padding: 10px;
+}
+.slider{
+    width: 1200px;
+    margin: 0 auto;
+    /* background:linear-gradient(rgba(160, 222, 99, 0.8),rgba(234, 74, 74, 0.8)),url(./images/electrical-lab-5.jpg) ; */
+    background:radial-gradient(rgba(160, 222, 99, 0.8),rgba(234, 74, 74, 0.8)),url(./images/electrical-lab-5.jpg) ;
+    /* background:conic-gradient(rgba(160, 222, 99, 0.8),rgba(234, 74, 74, 0.8)),url(./images/electrical-lab-5.jpg) ; */
+    /* background:radial-gradient(closest-side at 60% 55%, red, yellow, black),url(./images/electrical-lab-5.jpg) ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    height: 60vh;
+}
+.slider h1{
+    position: absolute;
+    top: 37%;
+    left: 30%;
+    color: #fff;
+
+}
+.slider p{
+    position: absolute;
+    top: 45%;
+    left: 37%;
+    text-align: center;
+    color:black;
+
+}
+.slider a{
+    position: absolute;
+    top: 55%;
+    left: 47%;
+    text-decoration: none;
+    border: 1px solid blue;
+    padding: 10px;
+    border-radius: 10px;
+    background: pink;
+
+}
+.slider a:hover{
+    background: red;
+    color: #fff;
+}
+/* slider part end/*
+/* hero part start */
+.hero{
+    width:1200px ;
+    margin: auto;
+    
+  }
+  .service-title{
+    text-align: center;
+    padding-top: 20px;
+  }
+span{
+    color: blue;
+    background: green;
+}
+.card img{
+    width: 50px;
+    height: 50px;
+    border: 2px solid teal;
+    padding: 10px;
+    border-radius: 50%;
+}
+.card{
+    background:tomato;
+    padding: 60px;
+    }
+.service-box{
+    text-align: center;
+    display: grid;
+    /* grid-template-columns:repeat(4,1fr); */
+   /* grid-template-columns: repeat(4,250px);*/
+grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+    gap: 5px;
+
+
+   }
+.card a{
+    border: 2px solid teal;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.card p{
+    font-size: small;
+    
+}
+
+
+/* hero part end */
+/* Footer part start */
+footer{
+    width: 1200px;
+    margin: 30px auto;
+
+}
+.footer-card img{
+width: 30px;
+height: 30px;   
+}
+.footer-card{
+    background-color: cyan;
+    padding: 10px;
+}
+.footer-main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(33%,auto));
+    gap: .3%;
+
+}
+.social{
+    display: grid;
+    grid-template-rows: repeat(auto-fit,minmax(15%,auto));
+}
+.social a{
+color: white;
+text-decoration: none;
+font-size: 25px;
+}
+.social img{
+    position: relative;
+    top: 5px;
+    padding-right: 7px;
+
+}
+.social h2{
+    text-align: center;
+}
+
+.xx img{
+    border: 1px solid white;
+    padding: 5px; 
+
+}
+/* Footer part end */
+/* Animation part start */
+.animate{
+    animation:7s mov linear infinite;
+}
+@keyframes mov {
+    from{background-color: tomato;}
+    to{background-color: chartreuse;}
+    
+}
+/* Animation part end */

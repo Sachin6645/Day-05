@@ -1,0 +1,63 @@
+  @media screen and(max-width:600px) {
+    
+  }
+.cont{
+        width: 100%;
+        margin: 0 auto;
+       
+    }
+.head{
+    width: 100%;
+    height: 80px;
+    background: rgb(97, 233, 133);
+}
+.logo{
+    padding: 10px;   
+    line-height: 45px;
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+
+}
+
+.menu{
+    
+    line-height: 60px;
+}
+
+.menu ul li a{
+    padding-right: 10px;
+    font-size: 15px;
+}
+.menu ul li a:hover{
+    background: rgb(237, 109, 45);
+    padding: 10px;
+}
+.slider{
+    width: 100%;
+}
+.slider h1{
+  
+    top: 27%;
+    left: 20%;
+    font-size: 20px;
+
+}
+.slider p{
+    
+    top: 35%;
+    left: 20%;
+    
+}
+.slider a{
+    
+    top: 47%;
+    left: 45%;
+   
+
+}
+/* slider part end */
+
+
+
